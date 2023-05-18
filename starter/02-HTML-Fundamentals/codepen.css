@@ -46,6 +46,8 @@ body {
 .info:link,
 .info:link {
   color: black;
+  margin-bottom: 30px;
+  display: inline-block;
 }
 
 .info:hover,
@@ -84,4 +86,54 @@ info:active {
   background-color: white;
   color: black;
   cursor: pointer;
+}
+
+article {
+  position: relative;
+  /* background-color: #666666; */
+}
+
+.badge {
+  display: inline-block;
+  background-color: #db3d3d;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 7px 15px;
+  letter-spacing: 0.2rem;
+  position: absolute;
+  top: -20px;
+  left: -40px;
+}
+
+.square {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.first {
+  background-color: #000;
+}
+
+.second {
+  background-color: #0b59f6;
+}
+
+.third {
+  background-color: #d20c0c;
+}
+
+.fourth {
+  background-color: #d09e4d;
+}
+
+.fifth {
+  background-color: #4da253;
+}
+
+.sixth {
+  background-color: #6d5a47;
 }
